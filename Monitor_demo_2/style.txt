@@ -1,0 +1,74 @@
+ Genel Widget Stilleri 
+QWidget {
+    background-color #282a36;
+    color #abb2bf;
+    font-family Roboto Mono, monospace;
+    font-size 12px;
+}
+
+ Table Widget Stilleri 
+QTableWidget {
+    border 1px solid #333740;
+    gridline-color #333740;
+    selection-background-color #44475a;
+    selection-color #abb2bf;
+}
+
+ Başlık Satırı Stilleri 
+QHeaderView {
+    background-color #333740;
+    color #abb2bf;
+    font-weight bold;
+}
+
+ Hücre Stilleri 
+QTableWidgetItem {
+    border 1px solid #333740;
+    padding 4px;
+    text-align left;
+}
+
+ Alternatif Satır Renklendirme 
+QTableWidgetitemalternate {
+    background-color #2b2d33;
+}
+
+ Seçili Hücre Stilleri 
+QTableWidgetitemselected {
+    background-color #44475a;
+    color #abb2bf;
+}
+
+ Scrollbar Stilleri 
+QScrollBarvertical {
+    border none;
+    background-color #333740;
+    width 10px;
+    margin 0px 0px 0px 10px;
+}
+
+QScrollBarhandlevertical {
+    background-color #44475a;
+    min-height 20px;
+    border-radius 5px;
+}
+
+QScrollBaradd-linevertical {
+    border none;
+    background-color #333740;
+    height 10px;
+    subcontrol-position bottom;
+}
+
+QScrollBarsub-linevertical {
+    border none;
+    background-color #333740;
+    height 10px;
+    subcontrol-position top;
+}
+
+ Köşe Genişletme Butonu Stilleri 
+QAbstractScrollAreacornerWidget {
+    background-color #333740;
+    border none;
+}
